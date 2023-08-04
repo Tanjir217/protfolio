@@ -3,6 +3,7 @@
   margin: 0;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 html{
   scroll-behavior: smooth;
@@ -93,11 +94,6 @@ nav ul li a:hover{
   margin-left: 3%;
   margin-top: 6%;
 }
-.image{
-  margin-top: 20px;
-  border: 2px solid  transparent;
-  border-radius: 10%;
-}
 #text{
   position: absolute;
   color: #414040;
@@ -108,7 +104,7 @@ nav ul li a:hover{
   font-size: 1.8rem;
 }
 .options{
-  margin-top: 50px;
+  margin-top: 40px;
   display: flex;
   justify-content: space-between;
 }
@@ -119,9 +115,6 @@ nav ul li a:hover{
   border: 1px solid transparent;
   border-radius: 3px;
   font-weight: 700;
-}
-.work{
-  width: 150px;
 }
 .option:hover{
   color: crimson;
@@ -184,18 +177,6 @@ nav ul li a:hover{
   height: 420px;
   width: 280px;
   background-image: url("images/box3-img.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  box-shadow: 3px 3px 15px;
-  border: 1px solid transparent;
-  border-radius: 10px;
-}
-.box4-img{
-  margin: 7px;
-  height: 420px;
-  width: 280px;
-  background-image: url("images/box4-img.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -385,11 +366,14 @@ form .btn2{
     margin: 40px;
   }
   .img-image{
+    margin-left: 10px;
     height: 400px;
+    width: 400px;
     border: 1px solid transparent;
     border-radius: 0px;
   }
   .option{
+    width: max-content;
     margin-left: 10px;
     font-size: 14px;
   }
@@ -399,5 +383,12 @@ form .btn2{
     font-size: 16px;
     height: 50px;
     width: 150px;
+  }
+  .row {
+    display: grid;
+  }
+  .d-btn{
+    margin-left: 200px;
+    margin-bottom: 20px;
   }
 }

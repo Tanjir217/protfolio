@@ -42,17 +42,14 @@
       </div>
       <div class="about-txt">
         <div class="options">
-          <div class="option image"onclick="showMyself()">
-              <h3>My Self</h3>
-          </div>
-          <div class="option image" onclick="showEducation()">
+          <div class="option" onclick="showEducation()">
             <h3>Education</h3>
           </div>
-          <div class="option image" onclick="showSkill()">
+          <div class="option" onclick="showSkill()">
               <h3>Skill</h3>
           </div>
           
-          <div class="option work image" onclick="showWorkExperience()">
+          <div class="option" onclick="showWorkExperience()">
               <h3>Work Experience</h3>
           </div>
       </div>
@@ -86,13 +83,6 @@
           <div class="box">
             <h2 class="box-h2">Music App</h2>
             <div class="box3-img"></div>
-            <a class="box-a" href="#">See More</a>
-          </div>
-        </a>
-        <a href="#">
-          <div class="box">
-            <h2 class="box-h2">Video editing App</h2>
-            <div class="box4-img"></div>
             <a class="box-a" href="#">See More</a>
           </div>
         </a>
@@ -154,10 +144,6 @@
   </div>
 
 <script>
-  function showMyself() {
-        document.getElementById('image').src = 'images/default_image.png';
-        document.getElementById('text').textContent = 'Hi I am Tanjir';
-    }
     function showSkill() {
         document.getElementById('image').src = 'images/skill_image.png';
         document.getElementById('text').textContent = 'I am junior web developer.I know Html and Css ';
