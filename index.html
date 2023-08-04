@@ -40,24 +40,24 @@
           <img id="image" class="img-image" src="images/first-img.png" alt="My Image">
         </div>
       </div>
-      <div class="about-txt">
-        <div class="options">
-          <div class="option" onclick="showEducation()">
-            <h3>Education</h3>
+      <div class="content-2">
+        <div class="about-txt">
+          <div class="options">
+            <div class="option" onclick="showEducation()">
+              <h3>Education</h3>
+            </div>
+            <div class="option" onclick="showSkill()">
+                <h3>Skill</h3>
+            </div>
+            <div class="option" onclick="showWorkExperience()">
+              <h3>Work Experoence</h3>
+            </div>
           </div>
-          <div class="option" onclick="showSkill()">
-              <h3>Skill</h3>
-          </div>
-          
-          <div class="option" onclick="showWorkExperience()">
-              <h3>Work Experience</h3>
-          </div>
-      </div>
+        </div>
         <div id="text">
-        Hi,I am introducing Me
+          
+        </div>
       </div>
-    </div>
-  </div>
   </div>
   <div id="protfolio">
     <div class="protfolio">
@@ -68,21 +68,21 @@
         <a href="#">
           <div class="box">
             <h2 class="box-h2">Online Shoping App</h2>
-            <div class="box1-img"></div>
+            <div class="box1-img port-box-img"></div>
             <a class="box-a"href="#">See More</a>
           </div>
         </a>
         <a href="#">
           <div class="box">
             <h2 class="box-h2">Social Media App</h2>
-            <div class="box2-img"></div>
+            <div class="box2-img port-box-img"></div>
             <a class="box-a"href="#">See More</a>
           </div>
         </a> 
         <a href="#">
           <div class="box">
             <h2 class="box-h2">Music App</h2>
-            <div class="box3-img"></div>
+            <div class="box3-img port-box-img"></div>
             <a class="box-a" href="#">See More</a>
           </div>
         </a>
@@ -142,23 +142,22 @@
       <p>copyright <i class="fa-regular fa-copyright"></i> Tanjir.Made by Tanjir</p>
     </div>
   </div>
-
+  
 <script>
     function showSkill() {
-        document.getElementById('image').src = 'images/skill_image.png';
+        // document.getElementById('image').src = 'images/skill_image.png';
         document.getElementById('text').textContent = 'I am junior web developer.I know Html and Css ';
     }
 
     function showEducation() {
-        document.getElementById('image').src = 'images/education_image.png';
+        // document.getElementById('image').src = 'images/education_image.png';
         document.getElementById('text').textContent = 'I am a teen age boy i am at class 9 student Of, Chandla Karim Boksha HighSchool And Collage';
     }
 
     function showWorkExperience() {
-        document.getElementById('image').src = 'images/work_experience_image.png';
+        // document.getElementById('image').src = 'images/work_experience_image.png';
         document.getElementById('text').textContent = 'I mentioned that i am junior web developer.I have no experience and I also never work at it';
     }
 </script>
-
 </body>
 </html>
