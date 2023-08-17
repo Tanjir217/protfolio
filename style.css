@@ -2,8 +2,10 @@
   padding: 0;
   margin: 0;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background: #1d2022;
-  color: #dec6ac;
+}
+body{
+  background-color: #414040;
+  color: white;
 }
 html{
   scroll-behavior: smooth;
@@ -178,7 +180,7 @@ nav .fa-solid{
 }
 .box1-img{
   margin: 7px;
-  height: 420px;
+  height: 300px;
   width: 280px;
   background-image: url("images/box1-img.png");
   background-repeat: no-repeat;
@@ -187,6 +189,11 @@ nav .fa-solid{
   box-shadow: 3px 3px 15px;
   border: 1px solid transparent;
   border-radius: 10px;
+}
+.port-box-box-txt{
+  margin-left: 15px;
+  color: white;
+  width: 260px;
 }
 .box2-img{
   margin: 7px;
@@ -224,7 +231,7 @@ nav .fa-solid{
 }
 .box:hover{
   box-shadow: 3px 3px 15px;
-  background-color: white;
+  background-color: #ababab;
 }
 /* service */
 #services{
